@@ -1,11 +1,13 @@
 ---
 name: vue-architect
 description: >
-  Strategic Vue.js architecture decisions for 2026: framework/ecosystem, toolchain,
-  rendering, design systems, state, network, performance, testing, accessibility,
-  AI-ready governance, ADRs, green web, and decision framework.
-  Trigger: When building with Vue 3/Nuxt 4, choosing PrimeVue, configuring Tailwind 4,
-  setting up Pinia/TanStack Query, or making Vue-specific architectural decisions.
+  Vue-specialized architecture skill providing 2026 ecosystem expertise for projects
+  already using Vue.js. Covers Vue 3.5+/Nuxt 4 toolchain, rendering (SPA/SSR/SSG/ISR/PPR),
+  PrimeVue 4 + Tailwind 4, Pinia 3/Colada/TanStack Query, Vitest + Playwright testing,
+  WCAG 2.2/EAA accessibility, AI-ready governance, ADRs, and green web.
+  Trigger: When the project already uses Vue 3/Nuxt 4 and needs ecosystem-specific decisions
+  — configuring PrimeVue/Tailwind, setting up Pinia/Colada, choosing rendering strategy
+  within Vue, or writing Vue-specific ADRs.
 license: Apache-2.0
 metadata:
   author: kozz36

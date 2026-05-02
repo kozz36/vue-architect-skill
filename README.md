@@ -1,8 +1,11 @@
 # vue-architect-skill
 
-Vue-native architecture skill for AI agents and senior architects.
-Specialized in the Vue.js 2026 ecosystem: Vue 3.5+, Nuxt 4, Vite 6,
-Tailwind 4, PrimeVue 4, Pinia 3, Pinia Colada, and WCAG 2.2 / EAA compliance.
+> **Vue-specialized** architecture skill providing **2026 ecosystem expertise** for projects
+> **already using Vue.js**. Covers Vue 3.5+, Nuxt 4, Vite 6, Tailwind 4, PrimeVue 4,
+> Pinia 3, Pinia Colada, TanStack Query, Vitest + Playwright, and WCAG 2.2 / EAA compliance.
+>
+> **Scope**: This skill triggers AFTER the team has already chosen Vue. For framework
+> selection (React vs Vue vs Svelte, etc.), use `frontend-architect-skill` instead.
 
 ## When to Use
 
