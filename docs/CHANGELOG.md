@@ -25,3 +25,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - Apache-2.0 license
 - Verification script (`scripts/verify.js`) for build-time checks
 - CHANGELOG and CONTRIBUTING docs
+
+### Relationships
+- Complements `frontend-architect-skill`: use `frontend-architect` to choose Vue, then `vue-architect` to design the Vue stack
+- Replaces `vue-admin`: `vue-admin` was component-level only (too narrow)

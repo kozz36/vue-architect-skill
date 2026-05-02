@@ -94,3 +94,8 @@ See [docs/CHANGELOG.md](docs/CHANGELOG.md).
 ## License
 
 Apache-2.0 — see [LICENSE](LICENSE).
+
+## Related Skills
+
+- **[frontend-architect-skill](https://github.com/kozz36/frontend-architect-skill)** — Framework selection (React vs Vue vs Angular). Use this FIRST if you haven't chosen your stack yet.
+- **[backend-architect-skill](https://github.com/kozz36/backend-architect-skill)** — API design, database architecture, auth patterns, caching, and scaling decisions.
