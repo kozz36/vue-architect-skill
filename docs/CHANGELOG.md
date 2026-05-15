@@ -1,5 +1,17 @@
 # Changelog
 
+## [v3.0] - 2026-05-15
+
+### Added
+- Added `versions/v3.0/SKILL.md` using the skill-creator compact runtime contract.
+- Added `versions/v3.0/references/technical-reference.md` as the curated v3.0 technical basis.
+- Added `versions/v3.0/references/source-index.md` for source links and verification status.
+
+### Changed
+- Validated v3.0 technical reference against current May 2026 sources and corrected stale or over-strong claims.
+- Curated v3.0 references so they are robust local technical bases rather than historical lite dumps.
+- Preserved existing lite versions for backward compatibility; v3.0 is the new references-based skill version.
+
 All notable changes to this project are documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
