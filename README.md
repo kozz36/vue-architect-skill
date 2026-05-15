@@ -1,7 +1,7 @@
 # vue-architect-skill
 
 > **Vue-specialized** architecture skill providing **2026 ecosystem expertise** for projects
-> **already using Vue.js**. Covers Vue 3.5+, Nuxt 4, Vite 6, Tailwind 4, PrimeVue 4,
+> **already using Vue.js**. Covers Vue 3.5+, Nuxt 4, Vite 8, Tailwind 4, PrimeVue 4,
 > Pinia 3, Pinia Colada, TanStack Query, Vitest + Playwright, and WCAG 2.2 / EAA compliance.
 >
 > **Scope**: This skill triggers AFTER the team has already chosen Vue. For framework
@@ -22,11 +22,12 @@ This skill triggers automatically when the conversation touches:
 
 ## Version Matrix
 
-| Version | Status | Best For |
-|---------|--------|----------|
-| v1.0 | Canonical | Stable baseline — all 13 sections, decision tables, anti-patterns |
-| v2.0 | Reference | Expanded rationale and additional decision trees |
-| v2.0-lite | Quick ref | Condensed 350–400 line cheat sheet |
+| Version   | Status               | Best For                                                                                        |
+| --------- | -------------------- | ----------------------------------------------------------------------------------------------- |
+| v3.0      | Current              | Compact runtime contract with curated references and May 2026 source index                      |
+| v2.0      | Historical           | Expanded rationale; preserved for backward compatibility, verify claims against v3 before reuse |
+| v2.0-lite | Historical quick ref | Preserved for backward compatibility; v3.0 replaces it for active runtime ingestion             |
+| v1.0      | Historical baseline  | Preserved for backward compatibility                                                            |
 
 ## Repository Structure
 
@@ -39,8 +40,13 @@ This skill triggers automatically when the conversation touches:
 │   │   └── SKILL.md
 │   ├── v2.0/
 │   │   └── SKILL.md
-│   └── v2.0-lite/
-│       └── SKILL.md
+│   ├── v2.0-lite/
+│   │   └── SKILL.md
+│   └── v3.0/
+│       ├── SKILL.md
+│       └── references/
+│           ├── technical-reference.md
+│           └── source-index.md
 └── docs/
     ├── CHANGELOG.md
     └── CONTRIBUTING.md
@@ -55,11 +61,11 @@ This skill triggers automatically when the conversation touches:
 ```bash
 # Linux / macOS
 mkdir -p ~/.config/opencode/skills/vue-architect
-cp versions/v1.0/SKILL.md ~/.config/opencode/skills/vue-architect/SKILL.md
+cp versions/v3.0/SKILL.md ~/.config/opencode/skills/vue-architect/SKILL.md
 
 # Windows
 mkdir "%USERPROFILE%\.config\opencode\skills\vue-architect"
-copy "versions\v1.0\SKILL.md" "%USERPROFILE%\.config\opencode\skills\vue-architect\SKILL.md"
+copy "versions\v3.0\SKILL.md" "%USERPROFILE%\.config\opencode\skills\vue-architect\SKILL.md"
 ```
 
 2. The skill auto-triggers when Vue, Nuxt, PrimeVue, Pinia, or Vite are mentioned.
@@ -69,7 +75,7 @@ copy "versions\v1.0\SKILL.md" "%USERPROFILE%\.config\opencode\skills\vue-archite
 - **Vue-native**: Every decision is scoped to the Vue ecosystem (Nuxt, Vite, PrimeVue).
 - **Decision tables**: Comparisons are tables, not paragraphs.
 - **Anti-patterns**: Each section includes at least one `⚠️ Anti-pattern` block.
-- **Verifiable claims**: Version claims reference live URLs (Vite 6, Tailwind 4, etc.).
+- **Verifiable claims**: Active v3 claims reference `versions/v3.0/references/source-index.md` (Vite 8, Tailwind 4, etc.).
 - **AI-ready**: Governance files (`CLAUDE.md`, `.cursorrules`) and composable-first architecture.
 
 ## Verification
@@ -81,6 +87,7 @@ node scripts/verify.js
 ```
 
 Checks:
+
 - Line count budgets (v1.0: 500–600, v2.0-lite: 350–400)
 - 13 sections in order
 - Every section has ≥1 table or anti-pattern block
